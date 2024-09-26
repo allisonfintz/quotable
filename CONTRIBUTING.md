@@ -104,6 +104,21 @@ $ npm run test
 $ npm run lint
 ```
 
+### Guidelines
+
+Code Style: 
+    Follow the existing code style in the project.
+Documentation: 
+    Update the documentation if your changes require it.
+Issues: 
+    Before creating a new issue, check if it’s already reported.
+Getting Help:
+    If you have questions or need help, feel free to open an issue or reach out to the maintainers.
+
+Thank you for your contributions!
+
+This structured approach will not only enhance the readability of the README but also make it more useful for new developers. If you have any questions or need further assistance, feel free to ask!
+
 [mongodb/atlas]: https://www.mongodb.com/cloud/atlas
 [fork-a-repo]: https://help.github.com/en/articles/fork-a-repo
 [cloning-a-repo]: https://help.github.com/en/articles/cloning-a-repository

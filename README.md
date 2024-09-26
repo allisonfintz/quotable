@@ -8,6 +8,27 @@ Quotable is a free, open source quotations API. It was originally built as part 
 
 There is a rate limit of **180 requests per minute**, per IP address. If you exceed the rate limit, the API will respond with a `429` error.
 
+### Error Handling
+
+- In your application, make sure to handle errors.
+- 429 error indicates that you’ve exceeded the rate limit. You can implement a retry mechanism or notify users when this happens.
+
+### Setup Intructions
+1. Clone the repository to your local machine using your terminal:
+
+   git clone https://github.com/lukePeavey/quotable.git
+
+   cd quotable
+
+These commands will allow you to open the repository on local machine.
+
+2. Open repository in an IDE such as, VSCode.
+3. You may need to install dependencies to start the repository:
+
+  npm install
+  npm run database:seed data/sample
+  npm run start:dev
+
 ### API Servers
 ```
 https://api.quotable.io
@@ -19,6 +40,13 @@ You can try out the API on our public Postman workspace.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/quotable/workspace/quotable)
 
+### Steps to explore with Postman
+
+1. Explore with Postman
+2. Open Postman and create a new request.
+3. Set the request type (GET, POST, etc.) depending on the endpoint you want to use.
+4. Enter the endpoint URL (e.g., https://api.quotable.io/random).
+5. Click "Send" to make the request and view the response.
 
 ## API Reference <!-- omit in toc -->
 
